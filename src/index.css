@@ -36,8 +36,9 @@ body{
   justify-content: space-around;
   height: 75px;
   align-items: center;
-  position: static;
+  position: sticky;
   top:0;
+  background-color: #ffffff;
 }
 nav ul li{
   list-style-type: none;
@@ -103,4 +104,12 @@ nav a:hover{
   width: 92px;
   height: 41px;
   box-shadow: 1px 4px 5px rgb(161, 161, 161);
+}
+.clients{
+  text-align: center;
+}
+.clients .images{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
 }
