@@ -63,3 +63,44 @@ nav a:hover{
   border-radius: 6px;
   background-color: aliceblue;
 }
+.body{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: #E8F5E9;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.body .left{
+  width: 45%;
+  height: 300px;
+}
+.body .right{
+  width: 30%;
+}
+.right img{
+  height: 300px;
+  width: 300px;
+}
+.left h1{
+  font-size:50px;
+  font-weight: 100px;
+}
+.left span{
+  color: #237D31;
+}
+.left button{
+  background-color: #237D31;
+  color: #E8F5E9;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+}
+
+.left button:hover{
+  width: 92px;
+  height: 41px;
+  box-shadow: 1px 4px 5px rgb(161, 161, 161);
+}
