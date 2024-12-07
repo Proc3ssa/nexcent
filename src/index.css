@@ -105,11 +105,51 @@ nav a:hover{
   height: 41px;
   box-shadow: 1px 4px 5px rgb(161, 161, 161);
 }
-.clients{
+.clients, .community{
   text-align: center;
+  width: 100%;
 }
 .clients .images{
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
 }
+.community{
+  margin: 60px auto;
+}
+
+.community h1{
+  width: 50%;
+  margin:auto
+}
+
+.community .members{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.member{
+  width:200px;
+  height: 210px;
+  border:0.5px solid #ABBED1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 2px 4px rgb(190, 189, 189);
+  
+}
+.member h3{
+  margin-top: 0px;
+}
+
+.member:hover{
+  width: 203px;
+  height: 212px;
+  background-color: #ABBED1;
+}
+.experience{
+  display:flex;
+  justify-content: space-around;
+}
+.experience
