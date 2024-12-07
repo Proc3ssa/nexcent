@@ -91,7 +91,7 @@ nav a:hover{
 .left span{
   color: #237D31;
 }
-.left button{
+.left button, .texts button{
   background-color: #237D31;
   color: #E8F5E9;
   border: none;
@@ -100,7 +100,7 @@ nav a:hover{
   width: 90px;
 }
 
-.left button:hover{
+.left button:hover,.texts button:hover{
   width: 92px;
   height: 41px;
   box-shadow: 1px 4px 5px rgb(161, 161, 161);
@@ -150,6 +150,15 @@ nav a:hover{
 }
 .experience{
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  margin:  40px auto;
 }
-.experience
+.experience .img{
+  width: 30%;
+  
+}
+.experience .texts{
+  width: 40%;
+  
+}
