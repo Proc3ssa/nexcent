@@ -7,6 +7,7 @@ import Experience from '../components/Experience'
 import Reinvent from '../components/Reinvent'
 import illustration from '../assets/rafiki.png'
 import Airpod from '../components/Airpod'
+import Caring from '../components/Caring'
 import pana from '../assets/pana.png'
 
 const Homepage = () => {
@@ -21,6 +22,7 @@ const Homepage = () => {
       <Experience image={pana} header='How to design your footer like this' text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse magni error rem eveniet aut atque perspiciatis facilis architecto animi veniam sint nulla provident, asperiores quibusdam ab officiis blanditiis maiores inventore!'/>
 
       <Airpod />
+      <Caring />
      
       
     </div>
