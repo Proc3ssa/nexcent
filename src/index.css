@@ -88,7 +88,7 @@ nav a:hover{
   font-size:50px;
   font-weight: 100px;
 }
-.left span{
+.left span, .help span{
   color: #237D31;
 }
 .left button, .texts button{
@@ -161,4 +161,32 @@ nav a:hover{
 .experience .texts{
   width: 40%;
   
+}
+.reinvent{
+  background-color: #E8F5E9;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.reinvent .help{
+  width: 30%;
+}
+.reinvent .services{
+  width: 30%;
+  border: 1px solid red;
+  gap: 20px;
+  align-items: center;
+}
+
+.service{
+ border: 1px solid yellow;
+ width: 40%;
+ float:right;
+ height: 50px;
+ margin: 10px 10px;
+}
+.service p{
+ font-size: 20px;
 }

@@ -4,6 +4,8 @@ import Body from '../components/Body'
 import Clients from '../components/Clients'
 import Community from '../components/Community'
 import Experience from '../components/Experience'
+import Reinvent from '../components/Reinvent'
+
 const Homepage = () => {
   return (
     <div className='home'>
@@ -12,6 +14,7 @@ const Homepage = () => {
       <Clients />
       <Community />
       <Experience />
+      <Reinvent />
     </div>
   )
 }
