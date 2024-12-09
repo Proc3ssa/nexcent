@@ -1,9 +1,9 @@
 import React from 'react'
+import airpod from '../assets/airpod.png'
 
-
-const Experience = ({image, header, text}) => {
+const Airpod = () => {
   return (
-    <div className='experience'>
+    <div className='airpod'>
         <div className="img">
            <img src={image} alt="" />
         </div>
@@ -17,4 +17,4 @@ const Experience = ({image, header, text}) => {
   )
 }
 
-export default Experience
+export default Airpod

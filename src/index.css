@@ -175,13 +175,13 @@ nav a:hover{
 }
 .reinvent .services{
   width: 30%;
-  border: 1px solid red;
+  
   gap: 20px;
   align-items: center;
 }
 
 .service{
- border: 1px solid yellow;
+ 
  width: 40%;
  float:right;
  height: 50px;
