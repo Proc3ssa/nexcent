@@ -205,6 +205,12 @@ width: 20%;
   width: 60%;
   height: 100%;
 }
+.service .texts{
+  margin-top: -23px;
+}
+.service .texts p{
+  font-size: 15px;
+}
 .up{
   position: relative;
   margin-top: -20px;
@@ -281,4 +287,51 @@ width: 20%;
 footer{
   background-color: #263238;
   height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+footer .c1{
+  width: 30%;
+}
+.in{
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.in2{
+  width: 50%;
+}
+footer p, .c3 b{
+  color: white;
+}
+
+.c2{
+  
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.c2 p{
+  position: relative;
+  margin-top: -15px;
+  
+}
+.c3{
+  width: 30%;
+  height: 120%;
+  padding: 0;
+}
+.c3 input[type='email']{
+  border: none;
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #4d4d4d9f;
 }

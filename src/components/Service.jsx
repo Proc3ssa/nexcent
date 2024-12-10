@@ -7,7 +7,7 @@ const Service = ({image, number, text}) => {
             <img src={image} alt="" />
         </div>
         <div className='texts'>
-            <h3>{number}</h3>
+            
             <p>{text}</p>
         </div>
       
