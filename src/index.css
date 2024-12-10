@@ -208,6 +208,7 @@ width: 20%;
 .up{
   position: relative;
   margin-top: -20px;
+  z-index: -1;
 }
 .airpod .images img{
   height: 40px;
@@ -256,4 +257,28 @@ width: 20%;
   height: fit-content;
   padding: 10px;
   box-shadow: 0px 5px 9px rgba(112, 112, 112, 0.596);
+}
+.demo{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  height: 210px;
+}
+.demo button{
+  border: none;
+  color: white;
+  background-color: #237D31;
+  border-radius: 6px;
+  width: 150px;
+  height: 35px;
+}
+.demo button:hover{
+  width: 151px;
+  height: 36px;
+  box-shadow: 0px 4px 5px rgb(161, 161, 161);
+}
+
+footer{
+  background-color: #263238;
+  height: 200px;
 }

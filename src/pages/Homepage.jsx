@@ -8,6 +8,8 @@ import Reinvent from '../components/Reinvent'
 import illustration from '../assets/rafiki.png'
 import Airpod from '../components/Airpod'
 import Caring from '../components/Caring'
+import Demo from '../components/Demo'
+import Footer from '../components/Footer'
 import pana from '../assets/pana.png'
 
 const Homepage = () => {
@@ -23,6 +25,8 @@ const Homepage = () => {
 
       <Airpod />
       <Caring />
+      <Demo />
+      <Footer />
      
       
     </div>
