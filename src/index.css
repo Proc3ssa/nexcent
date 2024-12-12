@@ -5,7 +5,10 @@ body{
 
 /* my css */
 
-
+nav{
+  position: fixed;
+  top: 0;
+}
 nav .active a{
   background-color: #237D31;
   color:white;
